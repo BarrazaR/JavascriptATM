@@ -1,0 +1,189 @@
+body{
+    background-image: url("../img/bg.png");
+    background-repeat: repeat;
+    display: block;
+    font-family: 'Roboto', sans-serif;
+    margin:0;
+    text-size-adjust: 100%;
+}
+header{
+    background-color: red;
+    height: 8px;
+}
+main{
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+    border-bottom: 10px;
+}
+.banner > *{
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 8px;
+}
+#login{
+    display:block;
+}
+.box{
+    width: 1000px;
+    height: 100%;
+    position: absolute;
+    background-color: white;
+    text-align: center;
+}
+.box input[type="text"],.box input[type="password"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 3px solid gray;
+    padding: 14px 10px;
+    width: 220px;
+    outline:none;
+    color: black;
+    border-radius: 24px;
+    transition: 0.25px;
+}
+.box input[type="text"]:focus,.box input[type="password"]:focus{
+    border-color: firebrick;
+}
+.box input[type="submit"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 3px solid gray;
+    padding: 14px 35px;
+    outline:none;
+    color: black;
+   
+    border-radius: 24px;
+    transition: 0.25px;
+    font-weight: bold;
+}
+.box input[type="submit"]:hover{
+    background-image: linear-gradient(red, firebrick);
+    color: white
+}
+#bienvenida{
+    background-image: linear-gradient(red, firebrick);
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 800px;
+}
+#bienvenida *{
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+#transacciones input[type="submit"]{
+    border: 0;
+    background-image: linear-gradient(red, firebrick);
+    color:white;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    padding: 14px 35px;
+    outline:none;
+    transition: 0.25px;
+    font-weight: bold;
+}
+#transacciones input[type="submit"]:hover{
+    background-color: white;
+    color: black;
+}
+
+#saldo h1{
+    background-image: linear-gradient(red, firebrick);
+    color: white;
+    text-align: center;
+}
+#saldo p{
+    font-size: 72px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+#saldo input[type="submit"]{
+    border: 0;
+    background-image: linear-gradient(red, firebrick);
+    color:white;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    padding: 14px 35px;
+    outline:none;
+    transition: 0.25px;
+    font-weight: bold;
+}
+#saldo input[type="submit"]:hover{
+    background-color: white;
+    color: black;
+}
+#deposito h1{
+    background-image: linear-gradient(red, firebrick);
+    color: white;
+    text-align: center;
+}
+#deposito input[type="text"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 3px solid firebrick;
+    padding: 14px 10px;
+    width: 220px;
+    outline:none;
+    color: black;
+    border-radius: 24px;
+    transition: 0.25px;
+}
+#deposito input[type="submit"]{
+    border: 0;
+    background-image: linear-gradient(red, firebrick);
+    color:white;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    padding: 14px 35px;
+    outline:none;
+    transition: 0.25px;
+    font-weight: bold;
+}
+#retiro h1{
+    background-image: linear-gradient(red, firebrick);
+    color: white;
+    text-align: center;
+}
+#retiro input[type="text"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 3px solid firebrick;
+    padding: 14px 10px;
+    width: 220px;
+    outline:none;
+    color: black;
+    border-radius: 24px;
+    transition: 0.25px;
+}
+#retiro input[type="submit"]{
+    border: 0;
+    background-image: linear-gradient(red, firebrick);
+    color:white;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    padding: 14px 35px;
+    outline:none;
+    transition: 0.25px;
+    font-weight: bold;
+}

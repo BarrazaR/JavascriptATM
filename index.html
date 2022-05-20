@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bienvenido a Maze Bank</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <link rel="icon" href="img/logo.png">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <script src="./scripts/script.js"></script>
+</head>
+<body>
+    <header>
+
+    </header>
+    <main>
+        <div class="banner">
+            <img src="./img/banner.png">
+        </div>
+        <div id="login">
+            <div class="box" action="">
+                <h1>
+                    Iniciar Sesión
+                </h1>
+                <input type="text" name="" placeholder="Usuario" id = "username">
+                <input type="password" name="" placeholder="Contraseña" id = "password">
+                <input type="submit" name="" value="Iniciar Sesión" onclick="validate()">
+            </div>
+        </div>
+        <div id="menu">
+            <div id="bienvenida">
+                <h1 id="saludo">Bienvenido NOMBRE</h1>
+                <h3>Elige una opción:</h2>
+            </div>
+            <div id="transacciones">
+                <input type="submit" name="" value="Depositar" onclick="depositar()">
+                <input type="submit" name="" value="Retirar" onclick="retirar()">
+                <input type="submit" name="" value="Consultar Saldo" onclick="consultar(cuentaActiva)">
+                <input type="submit" name="" value="Salir" onclick="salir()">
+            </div>
+        </div>
+        <div id="saldo">
+            <h1>Tu saldo actual es de:</h1>
+            <p id="balance">$ MXN</p>
+            <input type="submit" name="" value="Regresar" onclick="regresar()">
+        </div>
+        <div id="deposito">
+            <h1>Ingrese el monto a depositar:</h1>
+            <input type="text" name="" placeholder="Cantidad a depositar" id = "cantidadDepositada">
+            <input type="submit" name="" value="Depositar" onclick="sumar(cuentaActiva)">
+            <input type="submit" name="" value="Regresar" onclick="regresar()">
+        </div>
+        <div id="retiro">
+            <h1>Ingrese el monto a retirar:</h1>
+            <input type="text" name="" placeholder="Cantidad a retirar" id = "cantidadRetirada">
+            <input type="submit" name="" value="Retirar" onclick="restar(cuentaActiva)">
+            <input type="submit" name="" value="Regresar" onclick="regresar()">
+        </div>
+    </main>
+    <footer>
+        <br>
+    </footer>
+</body>
+</html>
